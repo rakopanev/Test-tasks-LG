@@ -1,4 +1,4 @@
-# Быстрая сортировка производит O(n*log(n)) обменов обменов при упорядочении n элементов.
+# Быстрая сортировка Quicksort производит O(n*log(n)) обменов при упорядочении n элементов.
 
 def quickSort(arr, first, second):
     f = first
@@ -18,3 +18,5 @@ def quickSort(arr, first, second):
             quickSort(arr, fist, s)
         if (f < second):
             quickSort(arr, f, second)
+
+# Quicksort является одним из самых быстрых алгоритмов сортировки и превосходит другие алгоритмы.
